@@ -1,4 +1,5 @@
-import { remote, WebContents, webContents } from "electron";
+import { WebContents, webContents } from "electron";
+import * as remote from "@electron/remote";
 
 export const isMain = process.type == 'browser';
 

@@ -23,8 +23,10 @@
     "dist/"
   ],
   "devDependencies": {
-    "electron": "^3.0.9",
+    "electron": "21.2.3",
     "typescript": "^3.3.3333"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@electron/remote": "^2.0.10"
+  }
 }

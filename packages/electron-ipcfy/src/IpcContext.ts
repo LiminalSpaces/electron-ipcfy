@@ -1,4 +1,5 @@
-import { remote, webContents, WebContents } from "electron";
+import { webContents, WebContents } from "electron";
+import * as remote from "@electron/remote";
 import { isMain } from "./utils";
 
 export type IpcContext = {

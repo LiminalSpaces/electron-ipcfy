@@ -1,4 +1,4 @@
-import { ipcMain, ipcRenderer, remote } from "electron";
+import { ipcMain, ipcRenderer } from "electron";
 import { Ipcfied } from ".";
 import { getMyCallerId, popContext, pushContext } from "./IpcContext";
 import { acceptRemoteCall, createRemoteHandler, RawHandler, stopAcceptRemoteCall } from "./RemoteHandlers";
